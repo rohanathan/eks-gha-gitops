@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: ssh://git@github.com/rohanathan/eks-gha-gitops.git
+    repoURL: git@github.com/rohanathan/eks-gha-gitops.git
     targetRevision: main
-    path: k8s/overlays/demo
+    path: eks-demo-gitops/overlays/demo
   destination:
     server: https://kubernetes.default.svc
     namespace: demo
