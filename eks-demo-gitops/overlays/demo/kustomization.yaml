@@ -1,8 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+
 namespace: demo
 namePrefix: demo-
+
 resources:
   - ../../base
+
 images:
-  - newTag: 6a30d92
+  - name: 897545368009.dkr.ecr.eu-west-2.amazonaws.com/eks-demo-app
+    newTag: 6a30d92   
