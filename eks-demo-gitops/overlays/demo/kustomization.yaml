@@ -5,4 +5,4 @@ namePrefix: demo-
 resources:
   - ../../base
 images:
-  - newTag: 814297b
+  - newTag: 6a30d92
